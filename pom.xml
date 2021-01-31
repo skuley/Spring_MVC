@@ -15,6 +15,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <org.springframework-version>4.3.4.RELEASE</org.springframework-version>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
@@ -30,7 +31,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>4.3.3.RELEASE</version>
+      <version>${org.springframework-version}</version>
     </dependency>
 
     <!-- MySQL -->
@@ -69,7 +70,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
-      <version>${org.springframework-version}</version>
+      <version>4.3.18.RELEASE</version>
     </dependency>
   </dependencies>
 
